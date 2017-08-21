@@ -1,0 +1,37 @@
+Question 1:
+Amazon's data warehousing service is called RedShift.
+-> True
+
+Question 2:
+What does an AWS Region consist of?
+-> An independent collection of AWS computing resources in a defined geography.
+
+Question 3:
+An AWS VPC is a component of which AWS service?
+-> Networking Service (Computing Service X)
+
+Question 4:
+Fill in the Blanks: AWS ___________________ allows organizations to do complex analysis on large volumes of data.
+-> Elastic Map Reduce (Big Data Processing X)
+
+Question 5:
+How many regions are there on the AWS platform currently?
+-> 11
+
+Question 6:
+Which statement best describes Availability Zones?
+-> Distinct locations from within an AWS region that are engineered to be isolated from failures.
+
+
+Question 7:
+There are more Regions than Edge Locations.
+-> False
+
+Question 8:
+Amazon's highly scaleable DNS service is called
+-> Route 53
+
+
+Question 9:
+What service offers object based (file based) storage?
+-> S3
