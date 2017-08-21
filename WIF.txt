@@ -1,0 +1,4 @@
+Authenticate with Identity Provider (facebook,google)
+-> Obtain Temporary Security Credentials
+-> Call AssumeRoleWith WebIdentity
+->Access AWS Resource
