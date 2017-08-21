@@ -1,0 +1,13 @@
+To delete an access key from the root user 
+
+(console)
+Sign-in using root user credentials (aws email account login) -> Dashboard -> Security Status ->Delete your root access keys -> Manage Security Credientials -> Continue to Security Credentials -> Access keys -> Delete (Action)
+
+http://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html?icmpid=docs_iam_console#id_root-user_manage_add-key
+
+
+To Activate MFA on your root account
+
+(console)
+Activate MFA on your root account -> Manage MFA -> Virtual Device -> Download and Install Authenticator App -> Enter two authenticate code
+
