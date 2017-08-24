@@ -1,0 +1,66 @@
+Question 1:
+
+Which statement best describes IAM? 
+IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform.
+
+Question 2:
+
+Which is NOT a feature of IAM? 
+Centralized control of your AWS account
+Integrates with existing active directory account allowing single sign on.
+Fine-grained access control to the AWS resources.
+
+Question 3:
+
+EC2 instances can have credentials stored on them so that the instances can access other resources (such as S3 buckets) AND AWS recommends that you do this instead of assigning roles. 
+Fales (?)
+
+
+Question 4:
+
+What is the name of the service to allow users to use their social media account to gain temporary access to the AWS platform? 
+
+Web Identity Federation
+
+Question 5:
+
+What is the API call used to obtain temporary security credentials when authenticating using Web Identity Federation? 
+AssumeRoleWithWebIdentity
+
+Question 6:
+
+What is the name of the API call to request temporary security credentials from the AWS platform when federating with Active Directory? 
+AssumeRoleWithSAML
+
+
+Question 7:
+
+When using active directory to authenticate to AWS what are the correct steps performed? 
+1) The user navigates to ADFS webserver
+2) The user enter in their single sign on credentials
+3) The user's web browser receives a SAML assertion from the AD server
+4) The user's browser then posts the SAML assertion to the AWS SAML end point for SAML and the AssumeRoleWithSAML API request is used to request temporary security credentials
+5) The user is then able to access the AWS Consle
+
+Question 8:
+
+SAML stands for Security Assertion Markup Language. 
+True
+
+Question 9:
+
+The AWS sign-in endpoint for SAML is https://signin.aws.amazon.com/saml 
+True
+
+
+Question 10:
+
+When using Web Identity Federation to allow a user to access an AWS service (such as an S3 bucket) what is the correct order of steps? 
+
+The user authenticates with facebook first.
+They are then given an ID token by facebook.
+An API call called AssumeRoleWithWebIdentity is then used by conjunction with the ID token.
+A user is then granted temporary security credentials.
+
+
+
